@@ -1,0 +1,25 @@
+name: equinv
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python
+  - pytorch
+  - pytorch-cuda
+  - ca-certificates
+  - cxx-compiler
+  - openssl
+  - tqdm
+  - wandb
+  - ipython
+  - certifi
+  - pip:
+    - numpy
+    - pandas
+    - scipy
+    - rdkit
+    - lightning
+    - torchmetrics
+    - openbabel-wheel
+    - typing_extensions

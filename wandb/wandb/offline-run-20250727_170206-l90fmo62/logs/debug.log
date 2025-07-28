@@ -1,0 +1,23 @@
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_setup.py:_flush():80] Configure stats pid to 177496
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_setup.py:_flush():80] Loading settings from /home/juhok/.config/wandb/settings
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_setup.py:_flush():80] Loading settings from /home/juhok/semla-flow/wandb/settings
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_init.py:setup_run_log_directory():703] Logging user logs to wandb/wandb/offline-run-20250727_170206-l90fmo62/logs/debug.log
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to wandb/wandb/offline-run-20250727_170206-l90fmo62/logs/debug-internal.log
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_init.py:init():830] calling init triggers
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-27 17:02:06,356 INFO    MainThread:177496 [wandb_init.py:init():871] starting backend
+2025-07-27 17:02:06,589 INFO    MainThread:177496 [wandb_init.py:init():874] sending inform_init request
+2025-07-27 17:02:06,591 INFO    MainThread:177496 [wandb_init.py:init():882] backend started and connected
+2025-07-27 17:02:06,591 INFO    MainThread:177496 [wandb_init.py:init():953] updated telemetry
+2025-07-27 17:02:06,596 INFO    MainThread:177496 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-27 17:02:06,707 INFO    MainThread:177496 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-27 17:02:06,750 INFO    MainThread:177496 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-27 17:02:06,750 INFO    MainThread:177496 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-27 17:02:06,750 INFO    MainThread:177496 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-27 17:02:06,750 INFO    MainThread:177496 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-27 17:02:06,751 INFO    MainThread:177496 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-27 17:02:06,879 INFO    MainThread:177496 [wandb_run.py:_config_callback():1363] config_cb None None {'lr': 0.0003, 'coord_scale': 2.407038688659668, 'type_loss_weight': 0.2, 'bond_loss_weight': 1.0, 'contrastive_loss_weight': 1.0, 'type_strategy': 'ce', 'bond_strategy': 'ce', 'self_condition': True, 'distill': False, 'lr_schedule': 'constant', 'sampling_strategy': 'linear', 'use_ema': True, 'compile_model': False, 'warm_up_steps': 10000, 'd_model': 384, 'vocab_size': 18, 'n_atom_feats': 19, 'd_edge': 128, 'n_edge_types': 5, 'self_cond': True, 'size_emb': 64, 'max_atoms': 256, 'd_message': 128, 'n_coord_sets': 64, 'n_layers': 12, 'n_attn_heads': 32, 'd_message_hidden': 128, 'bond_refine': True, 'coord_norm': 'length', 'AdaLN': True, 'eps': 1e-06, 'integration-steps': 100, 'integration-coord-noise-std': 0.0, 'integration-type-strategy': 'uniform-sample', 'integration-bond-strategy': 'uniform-sample', 'integration-cat-noise-level': 1, 'epochs': 200, 'gradient_clip_val': 1.0, 'dataset': 'geom-drugs', 'precision': '32', 'architecture': 'semla', 'train-coord-interpolation': 'linear', 'train-type-interpolation': 'unmask', 'train-bond-interpolation': 'unmask', 'train-coord-noise-std': 0.2, 'train-type-dist-temp': 1.0, 'train-equivariant-ot': True, 'train-batch-ot': False, 'train-time-alpha': 2.0, 'train-time-beta': 1.0, 'train-prior-coord-noise': 'gaussian', 'train-prior-type-noise': 'uniform-sample', 'train-prior-bond-noise': 'uniform-sample', 'train-prior-noise-scale-ot': False, 'train-prior-zero-com': True, 'val-coord-interpolation': 'linear', 'val-type-interpolation': 'unmask', 'val-bond-interpolation': 'unmask', 'val-coord-noise-std': 0.0, 'val-type-dist-temp': 1.0, 'val-equivariant-ot': False, 'val-batch-ot': False, 'val-time-alpha': None, 'val-time-beta': None, 'val-prior-coord-noise': 'gaussian', 'val-prior-type-noise': 'uniform-sample', 'val-prior-bond-noise': 'uniform-sample', 'val-prior-noise-scale-ot': False, 'val-prior-zero-com': True, 'val-fixed-interpolation-time': 0.9, 'batch-cost': 4096, 'buckets': 14, 'bucket-cost-scale': 'linear'}
+2025-07-27 17:02:07,711 INFO    MsgRouterThr:177496 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.
