@@ -236,10 +236,10 @@ class NodeAttention(torch.nn.Module):
             torch.Tensor: Accumulated node features, shape [batch_size, n_nodes, d_model]
         """
 
-        if (self.feat_norm is not None) and ((gate is not None) or (shift is not None) or (scale is not None)):
+        if (self.adaln) and ((gate is not None) or (shift is not None) or (scale is not None)):
             raise ValueError("Gate, shift, scale were provided but the model was initialised with AdaLN as None.")
 
-        if (self.feat_norm is None) and ((gate is None) or (shift is None) or (scale is None)):
+        if (not self.adaln) and ((gate is None) or (shift is None) or (scale is None)):
             raise ValueError("The model was initialised with AdaLN but no gate, shift, scale were provided to forward fn.")    
         
         attn_mask = adj_to_attn_mask(adj_matrix)
